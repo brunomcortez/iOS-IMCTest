@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "9CFC581E-7BAC-435F-AFD8-6BEF60F0A1D2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:IMC.xcodeproj",
+        "identifier" : "EDF432B12419A46D00943302",
+        "name" : "IMCTests"
+      }
+    }
+  ],
+  "version" : 1
+}

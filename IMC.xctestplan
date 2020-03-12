@@ -1,0 +1,53 @@
+{
+  "configurations" : [
+    {
+      "id" : "60C32CEB-77A2-4772-8825-3C3ACF4BD749",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "environmentVariableEntries" : [
+      {
+        "key" : "FB_REFERENCE_IMAGE_DIR",
+        "value" : "$(SOURCE_ROOT)\/$(PROJECT_NAME)SnapshotTests\/ReferenceImages"
+      },
+      {
+        "key" : "IMAGE_DIFF_DIR",
+        "value" : "$(SOURCE_ROOT)\/$(PROJECT_NAME)SnapshotTests\/FailureDiffs"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:IMC.xcodeproj",
+      "identifier" : "A12EB13323F3527200E76B1C",
+      "name" : "IMC"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:IMC.xcodeproj",
+        "identifier" : "EDF432B12419A46D00943302",
+        "name" : "IMCTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:IMC.xcodeproj",
+        "identifier" : "EDF432C32419BBC300943302",
+        "name" : "IMCUITests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:IMC.xcodeproj",
+        "identifier" : "EDF432D12419BFA200943302",
+        "name" : "IMCSnapshotTests"
+      }
+    }
+  ],
+  "version" : 1
+}
